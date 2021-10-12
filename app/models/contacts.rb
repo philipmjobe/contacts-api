@@ -1,5 +1,5 @@
 class Contacts
-attr_acessor: :first_name, :last_name, :email, :phone_number
+  attr_acessor :first_name, :last_name, :email, :phone_number
 
   def initialize(options)
     @first_name = options[:first_name]
@@ -7,6 +7,4 @@ attr_acessor: :first_name, :last_name, :email, :phone_number
     @email = options[:email]
     @phone_number = options[:phone_number]
   end
-
-
 end
